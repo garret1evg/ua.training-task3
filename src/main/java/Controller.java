@@ -19,7 +19,6 @@ public class Controller {
                 GlobalConstants.PRIMARY_MAX_BARRIER);
 
         model.setSecretValue();
-        System.out.println(model.getSecretValue());
 
         while (model.checkValue(inputIntValueWithScanner(sc)));
 
